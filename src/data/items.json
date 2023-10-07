@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Fantastic Fresh Shoes",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lectus eget dolor luctus suscipit. Nulla facilisi. Vestibulum nec sapien quis ligula ullamcorper fermentum",
+      "category": "Book",
+      "price": 10.99,
+      "imgUrl": "/images/book.jpg"
+    },
+    {
+      "title": "Upgrade you Skills",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lectus eget dolor luctus suscipit. Nulla facilisi. Vestibulum nec sapien quis ligula ullamcorper fermentum",
+      "category": "Computer",
+      "price": 1199,
+      "imgUrl": "/images/computer.jpg"
+    },
+    {
+      "title": "Eat up!",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lectus eget dolor luctus suscipit. Nulla facilisi. Vestibulum nec sapien quis ligula ullamcorper fermentum",
+      "category": "Food",
+      "price": 1.05,
+      "imgUrl": "/images/food.jpg"
+    },
+    {
+      "title": "Move it!",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lectus eget dolor luctus suscipit. Nulla facilisi. Vestibulum nec sapien quis ligula ullamcorper fermentum",
+      "category": "Car",
+      "price": 14000,
+      "imgUrl": "/images/transpo.jpg"
+    }
+  ]
