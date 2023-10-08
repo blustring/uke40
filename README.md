@@ -28,4 +28,20 @@ If you are developing a production application, we recommend updating the config
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 =======
 # uke40
+Image: References
+https://unsplash.com/photos/9BoqXzEeQqM = book
 
+https://unsplash.com/photos/EhTcC9sYXsw = computer
+
+https://unsplash.com/photos/-YHSwy6uqvk = food
+
+https://unsplash.com/photos/YApiWyp0lqo = transpo
+
+
+I based my code from a youtube tutorial as it also shows how to create an online store using React + TypeScript additionally i added Vite that uses Babel for fast Refresh of the application. 
+
+I remade the code by placing additional data in json like like image for better user experience.
+
+youtube video site : https://www.youtube.com/watch?v=lATafp15HWA&t=3126s
+
+github: https://github.com/WebDevSimplified/react-ts-shopping-cart.git
