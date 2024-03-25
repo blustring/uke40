@@ -88,7 +88,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
         return (
           <ShoppingCartContext.Provider
             value={{
-              getItemQuantity,
+              getItemQuantity: (title: string) => String(cartItems.find(item => item.title === title)?.quantity || 0),
               increaseCartQuantity,
               decreaseCartQuantity,
               removeFromCart,
