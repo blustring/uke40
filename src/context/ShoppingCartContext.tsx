@@ -49,7 +49,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
             return cartItems.find( item => item.title === title)?.quantity || 0
         }
 
-        function increaseCartQuantity(title: number) {
+        function increaseCartQuantity(title: string) {
           setCartItems(currItems => {
             if (currItems.find(item => item.title === title) == null) {
               return [...currItems, { title, quantity: 1 }]
@@ -64,7 +64,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
             }
           })
         }
-        function decreaseCartQuantity(title: number) {
+        function decreaseCartQuantity(title: string) {
           setCartItems(currItems => {
             if (currItems.find(item => item.title === title)?.quantity === 1) {
               return currItems.filter(item => item.title !== title)
@@ -79,7 +79,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
             }
           })
         }
-        function removeFromCart(title: number) {
+        function removeFromCart(title: string) {
           setCartItems(currItems => {
             return currItems.filter(item => item.title !== title)
           })

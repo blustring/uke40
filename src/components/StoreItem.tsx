@@ -1,4 +1,3 @@
-import React from "react";
 import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { formatCurrency } from "../utils/formatCurrency";
@@ -24,7 +23,7 @@ export function StoreItem({
     decreaseCartQuantity,
     removeFromCart,
   } = useShoppingCart();
-  const quantity = getItemQuantity(title);
+  const quantity = Number(getItemQuantity(title)); // Convert quantity to a number
 
   return (
     <Card className="h-100">
